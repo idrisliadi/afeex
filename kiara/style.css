@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navigation {
+  /* background-color: #0000ff73; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  /* position: sticky; */
+  top: 0;
+  gap: 3rem;
+  /* margin-right: 300px; */
+  color: gray;
+  margin-bottom: 100px;
+  border: 1px solid rgba(128, 128, 128, 0.404);
+  height: 80px;
+  background-color: rgba(128, 128, 128, 0.068);
+}
+ul {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+  /* border: 1px solid grey; */
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+.benz {
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  gap: 5rem;
+  margin-top: 20px;
+  padding-top: 40px;
+}
+.benz,
+img {
+  width: 100%;
+  height: 300px;
+  /* background-color:rgba(250, 235, 215, 0.055); */
+}
+.context {
+  /* padding-top: 130px; */
+  text-align: center;
+  margin-top: 30px;
+  /* padding-top: 20px; */
+  /* margin-left: 440px; */
+  /* width: 400px; */
+}
+.context p {
+  width: 400px;
+  margin: auto;
+}
+button {
+  height: 25px;
+  margin-top: 30px;
+  margin-left: 40%;
+  margin-bottom: 300px;
+}
+.item {
+  width: 30%;
+  height: 70%;
+}
+h1 {
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  color: rgba(0, 0, 0, 0.671);
+}
+p {
+  color: grey;
+}
+.geez {
+  color: black;
+  font-size: 80px;
+  color: grey;
+}
+.sat {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 200px;
+  padding-top: 200px;
+  margin-left: 90px;
+}
+.air {
+  /* width: 150%; */
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* gap: 1px; */
+  margin-top: 1px;
+  padding-top: 100px;
+  margin-left: 50px;
+  padding-left: 29px;
+
+  /* margin-left: 00px; */
+  /* background-color: white; */
+}
+.air img {
+  width: 200px;
+  height: 250px;
+  margin-left: 15px;
+  text-align: center;
+}
+h3 {
+  color: gray;
+  margin-left: 40px;
+}
+.ai {
+  /* width: 100%; */
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  margin-top: 1px;
+  padding-top: 20px;
+  margin-left: 50px;
+  padding-left: 29px;
+}
+.og {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 38rem;
+  margin-top: 20px;
+  padding-top: 40px;
+  font-size: 22px;
+}
+.ai img {
+  width: 360px;
+  height: 250px;
+  margin-left: 15px;
+}
+h2 {
+  color: gray;
+  margin-left: 15px;
+}
+p {
+  margin-left: 15px;
+}
+.gallery {
+  display: inline-block;
+  border: 1px solid rgba(128, 128, 128, 0.546);
+  /* margin: 5px; */
+  width: 200px;
+  margin-top: 50px;
+  /* padding-top: 100px; */
+  margin-left: 150px;
+  /* padding-left: 29px; */
+  /* gap: 14rem; */
+}
+
+.gallery .description {
+  padding: 10px;
+  text-align: center;
+}
+
+.gallery:hover {
+  border: 3px solid rgba(143, 132, 132, 0.514);
+}
+
+.gallery img {
+  /* width: 100%; */
+  /* height: auto; */
+  width: 280px;
+  height: 250px;
+  /* margin-left: 15px; */
+  /* text-align: center; */
+}
+
+.content {
+  margin-right: 250px;
+  text-align: center;
+  margin-top: 30px;
+  gap: 15rem;
+  /* width: 90%; */
+}
+.description {
+  background-color: rgb(90, 3, 64);
+  color: white;
+  width: 260px;
+}
+.ainstagram {
+  width: 50%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* position: absolute; */
+  bottom: 0;
+  zoom: -1;
+}
+/* .aainstagram{ */
+/* position: relative; */
+/* } */
+/* .item {
+  width: 2%;
+} */
+
+.container{
+  display: flex;
+}
+.item img{
+  height: 50vh;
+}
+.instagram{
+  position: relative;
+  top: 2px;
+  left: 300px;
+  background-color: rgb(126, 115, 115);
+  border-style: solid;
+}
+.signup{
+  font-weight: bold;
+  font-size: xx-large;
+  position: relative;
+  top: 200px;
+  left: 25%;
+  color: black;
+}
+form{
+  position: relative;
+  top: 250px;
+}
+.button{
+  width: 50%;
+  position: relative;
+  right: 15%;
+  border-color: black;
+}
+.input{
+  width:50%;
+  position: relative;
+  left: 25%;
+}
